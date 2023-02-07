@@ -261,6 +261,7 @@ select {
 }
 .cart {
     margin-top: 3rem;
+    padding: 0 1.5rem;
 }
 .items {
     display: grid;
@@ -278,13 +279,13 @@ select {
     flex-grow: 2;
 }
 .item img {
-    max-width: 134px;
+    max-width: 122px;
 }
 .item-name, .item-price {
     font-size: var(--fs-200);
 }
 .item-price {
-    margin-top: .25rem;
+    margin-top: .45rem;
 }
 .item-price span{
     position: relative;
@@ -307,6 +308,23 @@ select {
     display: flex;
     gap: 1.825rem;
     max-width: max-content;
-    padding: 1rem .625rem;
+    padding: .75rem .4rem;
     margin-top: auto;
+}
+
+.other-details {
+    margin-top: 5rem;
+}
+.other-details div {
+    border-top: 1px solid #BDBDBD;
+    padding: .625rem 0;
+}
+.other-details div p{
+    font-size: var(--fs-200);
+}
+
+/* * other information */
+
+.other-information {
+    margin-top: 3.25rem;
 }
