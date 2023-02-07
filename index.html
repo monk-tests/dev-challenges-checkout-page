@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+        />
+        <title>Checkout</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="heading">Checkout</h2>
+            <div class="cart">
+                <div class="items">
+                    <div class="item">
+                        <picture>
+                            <img src="/assets/photo1.png" alt="" />
+                        </picture>
+                        <div class="item-details">
+                            <h3 class="item-name">Vintage Backbag</h3>
+                            <p class="item-price">$54.99 <span>$94.99</span></p>
+                            <div>
+                                <button>-</button>
+                                <p>1</p>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <picture>
+                            <img src="/assets/photo2.png" alt="" />
+                        </picture>
+                        <div class="item-details">
+                            <h3 class="item-name">Levi Shoes</h3>
+                            <p class="item-price">$74.99 <span>$124.99</span></p>
+                            <div>
+                                <button>-</button>
+                                <p>1</p>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-details">
+                    <div>
+                        <p>Shipping</p>
+                        <p class="shipping-price">$19</p>
+                    </div>
+                    <div>
+                        <p>Total</p>
+                        <p class="total-price">$148.98</p>
+                    </div>
+                </div>
+            </div>
+            <div class="other-information">
+                <div class="contact-information">
+                    <h3>Contact information</h3>
+                    <div class="input-each">
+                        <label for="email">E-mail</label>
+                        <div class="input-container">
+                            <span class="material-symbols-outlined input-icon">
+                                mail
+                            </span>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email..."
+                            />
+                        </div>
+                    </div>
+                    <div class="input-each">
+                        <label for="phone">Phone</label>
+                        <div class="input-container">
+                            <span class="material-symbols-outlined input-icon">
+                                call
+                            </span>
+                            <input
+                                type="email"
+                                id="phone"
+                                placeholder="Enter your phone..."
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shipping-address">
+                    <h3>Shipping address</h3>
+                    <div class="input-each">
+                        <label for="name">Full name</label>
+                        <div class="input-container">
+                            <span class="material-symbols-outlined input-icon">
+                                account_circle
+                            </span>
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Your full name"
+                            />
+                        </div>
+                    </div>
+                    <div class="input-each">
+                        <label for="address">Address</label>
+                        <div class="input-container">
+                            <span class="material-symbols-outlined input-icon">
+                                home
+                            </span>
+                            <input
+                                type="text"
+                                id="address"
+                                placeholder="Your address"
+                            />
+                        </div>
+                    </div>
+                    <div class="input-each">
+                        <label for="city">City</label>
+                        <div class="input-container">
+                            <span class="material-symbols-outlined input-icon">
+                                location_city
+                            </span>
+                            <input
+                                type="text"
+                                id="city"
+                                placeholder="Your city"
+                            />
+                        </div>
+                    </div>
+                    <div class="input-each">
+                        <label for="country">Country</label>
+                        <div class="input-container">
+                            <span class="material-symbols-outlined input-icon">
+                                location_city
+                            </span>
+                            <select name="country" id="country">
+                                <option value="0">Your Country</option>
+                                <option value="A">A</option>
+                                <option value="A">B</option>
+                                <option value="A">C</option>
+                                <option value="A">D</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-each">
+                        <label for="postal_code">Postal code</label>
+                        <div class="input-container">
+                            <span class="material-symbols-outlined input-icon">
+                                markunread_mailbox
+                            </span>
+                            <input
+                                type="number"
+                                id="postal_code"
+                                placeholder="Your postal code"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkbox-container">
+                    <div class="checkbox check">
+                        <span class="material-symbols-outlined"> done </span>
+                    </div>
+                    <p>Save this information for next time</p>
+                </div>
+                <button class="continue-btn">Continue</button>
+            </div>
+        </div>
+    </body>
+</html>
